@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NewsXml" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+    </style>
+
+    <style name="Theme.NewsXml" parent="Base.Theme.NewsXml" />
+
+    <style name="RoundedSquare">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <!-- res/values/styles.xml -->
+
+        <style name="CustomButtonStyle" >
+            <!-- استخدام الـDrawable المخصص كخلفية -->
+            <item name="android:background">@drawable/botton_style</item>
+            <!-- لون النص داخل الزر -->
+            <item name="android:textColor">@color/green</item>
+
+        </style>
+
+
+</resources>
